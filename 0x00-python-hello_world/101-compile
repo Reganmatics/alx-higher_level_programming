@@ -1,2 +1,3 @@
 #!/bin/bash
-python3 -m compileall -b $PYFILE_
+echo "compiling $PYFILE ..."
+/usr/bin/py3compilie $PYFILE && mv __pycache__/$(ls __pycache__/) $PYFILE'c' && rmdir __pycache__
