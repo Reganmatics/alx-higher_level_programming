@@ -2,6 +2,6 @@
 
 for i in range(100):
     if i != 99:
-        print("{}".format(i), end=", ")
+        print("{:02d}".format(i), end=", ")
     elif i == 99:
-        print("{}".format(i))
+        print("{:02d}".format(i))
