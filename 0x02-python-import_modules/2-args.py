@@ -5,6 +5,7 @@ from sys import argv
 def main():
     if len(argv) - 1 == 0:
         print("0 arguments.")
+        return
     if len(argv) - 1 == 1:
         print("1 argument:")
     else:
