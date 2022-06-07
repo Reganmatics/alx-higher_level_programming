@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    for char in mty_string:
-        if char == 'c' or char == 'C':
-            print(mystr.replace(char, ''))
+    new_string = ""
+    for char in my_string:
+        if char != 'c' or char != 'C':
+            new_string += char
