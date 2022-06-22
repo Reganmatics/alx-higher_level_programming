@@ -22,3 +22,4 @@
 + How does Python find the attributes of an object or class
 + How to use the getattr function
 
+## my first 200%
