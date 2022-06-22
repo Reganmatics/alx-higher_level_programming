@@ -4,6 +4,8 @@
 
 contains an empty class
 """
+
+
 class Square():
     '''
         An empty square class
