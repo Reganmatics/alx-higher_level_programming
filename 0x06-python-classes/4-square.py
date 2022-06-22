@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+
+
+"""
+module 4-square.py
+Area of a square
+"""
+
+
 class Square():
     '''
         Defining a Square
