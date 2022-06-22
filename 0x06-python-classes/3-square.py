@@ -1,4 +1,11 @@
 #!/usr/bin/python3
+
+
+"""
+Module 3-square.py
+"""
+
+
 class Square():
     '''
         Defining a Square
