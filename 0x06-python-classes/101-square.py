@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+
+
+"""
+module 101-square.py
+Print Square instance
+"""
+
+
 class Square():
     '''
         Defining a Square
@@ -46,10 +54,10 @@ class Square():
             value (int): tuple of two positve numbers.
         '''
         if isinstance(value, tuple) and len(value) == 2:
-                if isinstance(value[0], int) and isinstance(value[1], int):
-                    if value[0] >= 0 and value[1] >= 0:
-                        self.__position = value
-                        return
+            if isinstance(value[0], int) and isinstance(value[1], int):
+                if value[0] >= 0 and value[1] >= 0:
+                    self.__position = value
+                    return
         raise TypeError("position must be a tuple of 2 positive integers")
 
     def my_print(self):
@@ -61,7 +69,7 @@ class Square():
             return ""
 
         for line in range(self.__position[1]):
-                print()
+            print()
         for col in range(self.__size - 1):
             print("{}{}".format(" " * self.__position[0], "#" * self.__size))
         return "{}{}".format(" " * self.__position[0], "#" * self.__size)
