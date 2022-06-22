@@ -8,6 +8,9 @@ private size
 
 
 class Square():
+    """
+    square with attribute
+    """
     def __init__(self, size):
         '''Initialization of instance attributes
             Args:
