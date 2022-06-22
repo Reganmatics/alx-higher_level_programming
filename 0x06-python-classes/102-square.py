@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+
+
+"""
+module 102-square
+Compare 2 squares
+"""
+
+
 class Square():
     '''
         Defining a Square
