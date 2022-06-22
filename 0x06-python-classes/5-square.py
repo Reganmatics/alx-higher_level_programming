@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+
+
+"""
+module 5-square.py
+printing a square
+"""
+
+
 class Square():
     '''
         Defining a Square

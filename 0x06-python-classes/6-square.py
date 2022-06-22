@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+
+
+"""
+module 6-square.py
+coordinates of a square
+"""
+
+
 class Square():
     '''
         Defining a Square
