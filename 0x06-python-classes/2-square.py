@@ -1,4 +1,13 @@
 #!/usr/bin/python3
+
+
+"""
+module 2-square.py
+
+size validation
+"""
+
+
 class Square():
     '''
         Defining a Square
