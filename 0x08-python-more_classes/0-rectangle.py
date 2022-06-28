@@ -1,6 +1,9 @@
-#usr/bin/python3
+#!usr/bin/python3
 
-# 0-rectangle.py
+"""
+0-rectangle
+an mepty class
+"""
 
 
 class Rectangle:
