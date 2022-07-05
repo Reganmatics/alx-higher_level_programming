@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-__author__  = "Reganmatics"
 """0-lookup.py"""
+__author__  = "Reganmatics"
 
 
 def lookup(obj):
