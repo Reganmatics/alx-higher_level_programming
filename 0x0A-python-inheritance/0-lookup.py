@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-__author__  = "Reganmatics"
+__author__ = "Reganmatics"
 """0-lookup.py"""
 
 
