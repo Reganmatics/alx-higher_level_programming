@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-__author__ = "Reganmatics"
-"""0-lookup.py"""
+"""Module 0-lookup
+Contains function lookup
+"""
 
 
 def lookup(obj):
