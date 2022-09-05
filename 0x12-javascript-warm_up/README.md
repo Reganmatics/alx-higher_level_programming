@@ -12,3 +12,8 @@ $ sudo apt-get install -y nodejs
 $ sudo npm install semistandard --global
 
 ```
+
+To fix semistandard issues in our code
+```
+semistandard --fix file.js
+```
