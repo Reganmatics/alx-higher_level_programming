@@ -2,4 +2,4 @@
 
 const process = require('process');
 
-console.log(process.argv);
+console.log(isNaN(process.argv[2]));
