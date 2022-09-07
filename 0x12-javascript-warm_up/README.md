@@ -17,3 +17,9 @@ To fix semistandard issues in our code
 ```
 semistandard --fix file.js
 ```
+
+Vanilla javascript argument parsing
+```
+cont args = process.argv
+const process = require('process')
+```
