@@ -2,6 +2,7 @@
 
 class Rectangle {
   constructor (w, h) {
+    // Create an empty object if width and/or height is an invalid number.
     if (w <= 0 || h <= 0 || isNaN(w) || isNaN(h)) { return; }
     this.width = w;
     this.height = h;
@@ -9,7 +10,7 @@ class Rectangle {
 
   print () {
     for (let i = 0; i < this.height; i++) {
-	 console.log('x'.repeat(this.width));
+	 console.log('X'.repeat(this.width));
     }
   }
 }
