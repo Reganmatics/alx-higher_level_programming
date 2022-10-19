@@ -11,7 +11,7 @@ def read_file(filename=""):
         filename: string containing file path
     """
 
-    with open(filename, encoding="utf-8") as fob:
+    with open(filename, encoding="UTF8") as fob:
         data = fob.read()
 
     print(data)
