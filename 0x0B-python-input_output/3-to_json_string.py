@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-
-import json
-
 """
 this script returns the json representation of an object
 """
-
+import json
 
 def to_json_string(my_obj):
     """
